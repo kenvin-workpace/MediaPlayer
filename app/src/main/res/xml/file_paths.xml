@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <!-- content://${applicationId}/app_internal_files/ -->
+    <!-- file:///data/user/0/${applicationId}/files/images/ -->
+    <files-path name="app_internal_files" path="images"/>
+
+    <!-- content://${applicationId}/app_internal_cache/ -->
+    <!-- file:///data/user/0/${applicationId}/cache/images/ -->
+    <cache-path name="app_internal_cache" path="images"/>
+
+    <!-- content://${applicationId}/app_external_files/ -->
+    <!-- file:///storage/emulated/0/Android/data/${applicationId}/files/images/ -->
+    <external-files-path name="app_external_files" path="images"/>
+
+    <!-- content://${applicationId}/app_external_cache/ -->
+    <!-- file:///storage/emulated/0/Android/data/${applicationId}/cache/images/ -->
+    <external-cache-path name="app_external_cache" path="images"/>
+
+    <!-- content://${applicationId}/external_root/ -->
+    <!-- file:///storage/emulated/0/images/ -->
+    <external-path name="external_root" path="images"/>
+
+    <!-- content://${applicationId}/system_root/ -->
+    <!-- file:///images/ -->
+    <root-path name="system_root" path="images"/>
+
+
+</paths>
